@@ -5,11 +5,10 @@
     <title>exercice3</title>
   </head>
   <body>
-    <?php
-    concatChar('bonjour',' Mickael');
-    function concatChar($char1,$char2){
-      echo $char1 . $char2;
-    }
-    ?>
+    <form class="" action="user.php" method="get">
+      <label class="name">Nom : <input type="texte" name="name"/></label>
+      <label class="firstname">Prénom : <input type="texte" name="firstname"/></label>
+      <button type="submit">soumettre</button>
+    </form>
   </body>
 </html>
